@@ -1,4 +1,4 @@
-const url = 'https://dev-dain.github.io/10-things-test';
+const url = 'https://animal-lover-test.netlify.app/';
 const title = '[이미지테스트]동물애호지수를 알아보는 10가지 질문 ';
 const hash = '%23animal_lover_test %23동물애호가테스트 %23이미지테스트 ';
 
