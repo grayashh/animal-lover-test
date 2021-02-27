@@ -46,7 +46,7 @@ const qnaList = [
     ]
   },
   {
-    q: '6. 만약 반려동물을 입양한다면 ?',
+    q: '6. 만약 반려동물을 입양한다면?',
     a: [
       { answer: 'a. 유기견, 유기묘 보호소에 있는 아이들을 데려온다', score: 6 },
       { answer: 'b. 가정분양을 생각해본다', score: 4 },
@@ -54,11 +54,11 @@ const qnaList = [
     ]
   },
   {
-    q: '7. 공백',
+    q: '7. SNS에 귀여운 동물사진이 뜬다면 당신의 반응은?',
     a: [
-      { answer: 'a. 고', score: 6 },
-      { answer: 'b. 하', score: 2 },
-      { answer: 'c. 중', score: 4 }
+      { answer: 'a. 친구 태그해서 공유하기', score: 6 },
+      { answer: 'b. 좋아요 누르기', score: 2 },
+      { answer: 'c. 댓글 달기', score: 4 }
     ]
   },
   {
