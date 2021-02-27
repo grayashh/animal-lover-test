@@ -41,8 +41,7 @@ const qnaList = [
     a: [
       { answer: 'a. 내 가족이 된다는 것', score: 6 },
       { answer: 'b. 그냥 귀여워서', score: 4 },
-      { answer: 'c. 내 행복과 외로움을 위한', score: 3 },
-      { answer: 'd. 맡아야할 책임이 생긴다는 것', score: 5 }
+      { answer: 'c. 내 행복과 외로움을 위한', score: 2 },
     ]
   },
   {
@@ -56,42 +55,35 @@ const qnaList = [
   {
     q: '7. SNS에 귀여운 동물사진이 뜬다면 당신의 반응은?',
     a: [
-      { answer: 'a. 친구 태그해서 공유하기', score: 6 },
-      { answer: 'b. 좋아요 누르기', score: 2 },
-      { answer: 'c. 댓글 달기', score: 4 }
+      { answer: 'a. 친구 태그해서 공유하고 댓글달기', score: 6 },
+      { answer: 'b. 그냥 넘어간다', score: 2 },
+      { answer: 'c. 좋아요를 누른다', score: 4 }
     ]
   },
   {
-    q: '8. 공백',
+    q: '8. 반려동물을 키우는 친구 집에 놀러갔다',
     a: [
-      { answer: 'a. 상', score: 6 },
-      { answer: 'b. 고', score: 7 },
-      { answer: 'c. 중상', score: 5 },
-      { answer: 'd. 중', score: 4 },
-      { answer: 'e. 중하', score: 3 },
-      { answer: 'f. 하', score: 2 },
-      { answer: 'g. 최하', score: 1 }
+      { answer: 'a. 반려동물이 보일 때 마다 쓰다듬으며 놀아준다', score: 6 },
+      { answer: 'b. 친구는 모르갰고,, 반려동물과 하루종일 논다', score: 7 },
+      { answer: 'c. 이름이 뭐였는지 물으며 친해지려 한다', score: 5 },
+      { answer: 'd. 반려동물이 보일 때 마다 인사해준다 ', score: 4 },
+      { answer: 'e. 동물은 너무 무서워 ㅠ 피한다', score: 1 },
     ]
   },
   {
-    q: '9. 공백',
+    q: '9. 반려동물이 가까이 다가와서 애처로운 눈빛으로 간식을 원한다',
     a: [
-      { answer: 'a. 고', score: 7 },
-      { answer: 'b. 상', score: 6 },
-      { answer: 'c. 중상', score: 4 },
-      { answer: 'd. 중', score: 2 },
-      { answer: 'e. 하', score: 1 }
+      { answer: 'a. 너무 귀여워! 간식을 대령한다', score: 7 },
+      { answer: 'b. 줄까? 말까,,,', score: 4 },
+      { answer: 'c. 뭘 원하는거지?', score: 1 },
     ]
   },
   {
-    q: '10. 공백',
+    q: '10. 길거리에서 반려동물 실종 포스터를 발견했다',
     a: [
-      { answer: 'a. 중', score: 4 },
-      { answer: 'b. 하', score: 2 },
-      { answer: 'c. 중하', score: 3 },
-      { answer: 'd. 상', score: 5 },
-      { answer: 'e. 고', score: 6 },
-      { answer: 'f. 최하', score: 1 }
+      { answer: 'a. 포스터 좀 그만 붙이지..', score: 1 },
+      { answer: 'b. 기억해두었다가 주변을 주시한다', score: 4 },
+      { answer: 'c. 주변을 샅샅이 뒤지고 되는대로 공유한다', score: 6 },
     ]
   }
 ]
@@ -116,7 +108,7 @@ const infoList = [
     to: 50,
     mLeft: '40%',
     name: '발전하는 동물러버',
-    desc: '동물을 좋아하는 평범한 일반인 !, 그래도 아직까진 동물보단 내가먼저 ㅎㅎ'
+    desc: '동물을 좋아하는 평범한 일반인 !, 그래도 아직까진 동물보단 내가 먼저 ㅎㅎ'
   },
   {
     from: 51,
